@@ -6,7 +6,7 @@ import RnbHero from '../public/R&BHeroImage.png'
 const HomeHeroSection = () => {
     return(
         <>
-          <div className='bg-gray-900 aspect-w-16 aspect-h-9 my-20'>
+          <div className='bg-gray-900 aspect-w-4 aspect-h-3 my-10'>
             <Image
               src={RnbHero}
               layout='responsive'

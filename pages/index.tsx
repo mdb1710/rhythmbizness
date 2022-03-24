@@ -5,6 +5,11 @@ import styles from '../styles/Home.module.css'
 
 import NavHeader from '../components/NavHeader'
 import HomeHeroSection from '../components/HomeHeroSection'
+import ActionSection from '../components/ActionSection'
+import AboutSection from '../components/AboutSection'
+import RoadMapSection from '../components/RoadMapSection'
+import TeamSection from '../components/TeamSection'
+import OldTeamSection from '../components/OldTeamSection'
 
 const Home: NextPage = () => {
   return (
@@ -20,20 +25,15 @@ const Home: NextPage = () => {
       <main>
         <div>
           <HomeHeroSection />
+          <ActionSection />
+          <AboutSection />
+          <RoadMapSection />
+          <TeamSection />
         </div>
       </main>
 
       <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
+          Copyright 2022 Code By MDB. All Rights Reserved.
       </footer>
     </div>
   )
