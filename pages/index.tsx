@@ -22,7 +22,7 @@ const Home: NextPage = () => {
 
       <NavHeader />
 
-      <main className='container'>
+      <main className='container mx-auto'>
         <div>
           <HomeHeroSection />
           <ActionSection />
